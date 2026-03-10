@@ -1,0 +1,78 @@
+{
+  "features": [
+    {
+      "feature": "AI Tutor Conversations",
+      "feature_key": "feature_ai_tutor_used",
+      "lifecycle": [
+        "trial (onboarding)",
+        "paid (daily habit)",
+        "churned (win-back)"
+      ],
+      "primary_goal": "Drive first speaking session within 24 hours of signup",
+      "outcome": "Habit formation, fluency confidence, daily retention"
+    },
+    {
+      "feature": "Gamification — Coins, Streaks, Leaderboards",
+      "feature_key": "streak_current",
+      "lifecycle": [
+        "trial (hook)",
+        "paid (engagement)",
+        "inactive (re-engagement)"
+      ],
+      "primary_goal": "Build daily habit through extrinsic motivation",
+      "outcome": "Streak maintenance, daily login, coin spending"
+    },
+    {
+      "feature": "Progress Reports",
+      "feature_key": "progress_reports",
+      "lifecycle": [
+        "paid (retention)",
+        "churned (win-back)"
+      ],
+      "primary_goal": "Show measurable progress to justify subscription",
+      "outcome": "Renewal intent, referral trigger"
+    },
+    {
+      "feature": "Role-Based Practice Scenarios",
+      "feature_key": "feature_leaderboard_viewed",
+      "lifecycle": [
+        "trial (activation)",
+        "paid (depth engagement)"
+      ],
+      "primary_goal": "Make practice feel relevant and career-linked",
+      "outcome": "Session completion, perceived value"
+    },
+    {
+      "feature": "Leaderboard",
+      "feature_key": "feature_leaderboard_viewed",
+      "lifecycle": [
+        "paid (social hook)",
+        "inactive (re-engagement)"
+      ],
+      "primary_goal": "Trigger social competition and accountability",
+      "outcome": "Increased session frequency, friend invites"
+    }
+  ],
+  "lifecycle_map": {
+    "trial": [
+      "AI Tutor Conversations",
+      "Gamification — Coins, Streaks, Leaderboards",
+      "Role-Based Practice Scenarios"
+    ],
+    "paid": [
+      "AI Tutor Conversations",
+      "Gamification — Coins, Streaks, Leaderboards",
+      "Progress Reports",
+      "Role-Based Practice Scenarios",
+      "Leaderboard"
+    ],
+    "churned": [
+      "AI Tutor Conversations",
+      "Progress Reports"
+    ],
+    "inactive": [
+      "Gamification — Coins, Streaks, Leaderboards",
+      "Leaderboard"
+    ]
+  }
+}

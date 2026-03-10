@@ -1,0 +1,11 @@
+segment_id,primary_theme,secondary_theme,tone_preferences,hooks
+Flight-Risk Subscribers,Loss Avoidance,Ownership,urgent-but-supportive | reassuring | continuity-focused,protect_streak | protect_progress | continue_plan | restart_small
+Lost Customers,Epic Meaning,Empowerment,empathetic | aspirational | gentle,future_self | real_life_confidence | restart_small | rebuild_confidence
+High-Intent Trialists,Accomplishment,Ownership,motivating | progress-focused | encouraging,streak_start | milestone_progress | your_learning_path | next_step
+Slipping Subscribers,Empowerment,Ownership,supportive | gentle | encouraging,easy_restart | continue_where_left | plan_waiting | momentum_recovery
+Dormant Users,Unpredictability,Empowerment,curiosity-led | supportive | low-pressure,surprise_challenge | easy_restart | two_min_practice | new_prompt
+At-Risk Trialists,Loss Avoidance,Empowerment,urgent-but-supportive | reassuring,protect_trial_momentum | small_restart | don't_miss_today | quick_ai_practice
+Community Builders,Social Influence,Ownership,warm | community-oriented | encouraging,peer_progress | group_challenge | community_streak | shared_milestone
+AI-Powered Learners,Empowerment,Accomplishment,coaching | progress-focused | smart,ai_personalized_practice | ai_feedback | fluency_progress | skill_improvement
+Gamified Competitors,Accomplishment,Scarcity,energetic | challenge-driven | competitive,streak_continuation | points_milestone | rank_jump | time_bound_challenge
+Core Curriculum Users,Ownership,Accomplishment,clear | structured | encouraging,your_learning_path | next_step | weekly_progress | steady_milestone

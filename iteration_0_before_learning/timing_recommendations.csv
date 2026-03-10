@@ -1,0 +1,11 @@
+segment_id,preferred_window_1,expected_ctr_1,expected_engagement_1,preferred_window_2,expected_ctr_2,expected_engagement_2,preferred_window_3,expected_ctr_3,expected_engagement_3,preferred_window_4,expected_ctr_4,expected_engagement_4
+AI-Powered Learners,early_morning,0.399,0.5698,evening,0.264,0.7613,,,,,,
+At-Risk Trialists,afternoon,0.38,0.3184,mid_morning,0.323,0.2024,evening,0.2453,0.2247,,,
+Community Builders,night,0.57,0.6658,early_morning,0.39,0.5528,,,,,,
+Core Curriculum Users,late_afternoon,0.521,0.6726,,,,,,,,,
+Dormant Users,early_morning,0.0563,0.0,evening,0.069,0.0,afternoon,0.033,0.01,night,0.0355,0.0
+Flight-Risk Subscribers,evening,0.3808,0.4192,afternoon,0.332,0.6042,night,0.38,0.4999,early_morning,0.3575,0.4754
+Gamified Competitors,evening,0.376,0.8301,night,0.425,0.5448,,,,,,
+High-Intent Trialists,evening,0.3563,0.3191,night,0.481,0.3551,mid_morning,0.3945,0.3189,early_morning,0.3483,0.2408
+Lost Customers,mid_morning,0.1335,0.0,night,0.0717,0.0256,evening,0.079,0.0083,early_morning,0.035,0.0367
+Slipping Subscribers,evening,0.5172,0.4758,afternoon,0.537,0.4654,late_afternoon,0.483,0.4529,,,

@@ -1,0 +1,5 @@
+{
+  "north_star": "Weekly Active Speakers",
+  "justification": "A user who speaks every week is building a habit. Habit = retention. Retention = revenue. Revenue = mission scale.",
+  "measurable_proxy": "sessions_last_7d >= 1 for paid lifecycle users."
+}

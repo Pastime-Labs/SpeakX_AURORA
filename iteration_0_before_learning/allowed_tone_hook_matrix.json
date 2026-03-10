@@ -1,0 +1,139 @@
+{
+  "allowed_tones": [
+    {
+      "tone": "Motivational",
+      "description": "Energetic, forward-looking, progress-focused. Use for streak reinforcement and goal achievement."
+    },
+    {
+      "tone": "Empathetic",
+      "description": "Warm, understanding, non-judgmental. Use for users who have missed sessions or are struggling."
+    },
+    {
+      "tone": "Aspirational",
+      "description": "Career and life-goal oriented, dream-focused. Use for working professionals and students."
+    },
+    {
+      "tone": "Friendly",
+      "description": "Casual: Conversational, peer-like, informal Hindi-English mix. Use for Tier 2/3 users, daily nudges."
+    },
+    {
+      "tone": "Urgent",
+      "description": "Gentle: Creates mild time pressure without anxiety. Use for trial expiry and streak-at-risk scenarios."
+    },
+    {
+      "tone": "Celebratory",
+      "description": "Praise-heavy, milestone-focused. Use for achievements, streaks, coin milestones."
+    }
+  ],
+  "disallowed_tones": [
+    {
+      "tone": "Shaming or Guilt",
+      "description": "Tripping: Never make users feel bad about missing sessions. Avoid \"you failed\", \"you broke your streak again\"."
+    },
+    {
+      "tone": "Overly Formal / Corporate",
+      "description": "Avoid stiff English that feels distant. This is a consumer app for everyday Indians."
+    },
+    {
+      "tone": "Fear",
+      "description": "Mongering: Do not use anxiety-inducing language around job loss, social rejection, or failure."
+    },
+    {
+      "tone": "Sycophantic / Hollow Praise",
+      "description": "Avoid generic \"Great job!\" without specific context."
+    },
+    {
+      "tone": "Aggressive Sales Language",
+      "description": "No \"BUY NOW\", \"LIMITED TIME ONLY\" pressure tactics."
+    }
+  ],
+  "hooks": {
+    "framework": "Octolysis",
+    "allowed": [
+      {
+        "drive_id": 0,
+        "drive_name": "Allowed Hooks by Drive",
+        "example_hooks": [],
+        "use_context": ""
+      },
+      {
+        "drive_id": 1,
+        "drive_name": "Epic Meaning",
+        "example_hooks": [
+          "\"Join 1M+ Indians transforming their careers with English\"",
+          "\"Be part of the English revolution in Tier 2 India\""
+        ],
+        "use_context": "Onboarding, brand moments, milestone celebrations"
+      },
+      {
+        "drive_id": 2,
+        "drive_name": "Accomplishment",
+        "example_hooks": [
+          "\"You completed 5 lessons! Keep the momentum going\"",
+          "\"Your pronunciation score improved by 12% this week\""
+        ],
+        "use_context": "Post-session, weekly reports, streak milestones"
+      },
+      {
+        "drive_id": 3,
+        "drive_name": "Empowerment",
+        "example_hooks": [
+          "\"Choose your learning path for today\"",
+          "\"Practice the scenario that matters most to you\""
+        ],
+        "use_context": "Session selection, personalization moments"
+      },
+      {
+        "drive_id": 4,
+        "drive_name": "Ownership",
+        "example_hooks": [
+          "\"Your 50 coins are waiting to be spent\"",
+          "\"Your Sia conversation history is building your profile\""
+        ],
+        "use_context": "Coin reminders, progress ownership nudges"
+      },
+      {
+        "drive_id": 5,
+        "drive_name": "Social Influence",
+        "example_hooks": [
+          "\"3 friends joined this week. Invite more!\"",
+          "\"Rahul from Lucknow is 2 lessons ahead of you\""
+        ],
+        "use_context": "Leaderboard notifications, referral triggers"
+      },
+      {
+        "drive_id": 6,
+        "drive_name": "Scarcity",
+        "example_hooks": [
+          "\"Only 2 days left in your free trial\"",
+          "\"This week's challenge closes in 6 hours\""
+        ],
+        "use_context": "Trial expiry, time-bound challenges"
+      },
+      {
+        "drive_id": 7,
+        "drive_name": "Unpredictability",
+        "example_hooks": [
+          "\"Surprise reward inside today's lesson!\"",
+          "\"Open the app to see your mystery challenge\""
+        ],
+        "use_context": "Daily engagement, streak protection"
+      },
+      {
+        "drive_id": 8,
+        "drive_name": "Loss Avoidance",
+        "example_hooks": [
+          "\"Your 7-day streak is at risk!\"",
+          "\"Don't lose your leaderboard rank — practice now\""
+        ],
+        "use_context": "Streak-at-risk, churn prevention"
+      }
+    ],
+    "disallowed": [
+      "Hooks that reference competitor apps or compare negatively",
+      "Hooks that imply the user is \"falling behind in life\" (shame-based)",
+      "Hooks that make unrealistic promises (\"Speak fluent English in 7 days\")",
+      "Hooks exploiting financial insecurity (\"Lose your job if you don't improve\")"
+    ]
+  }
+}
